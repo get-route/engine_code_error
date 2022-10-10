@@ -1,0 +1,17 @@
+User-agent: Yandex
+Crawl-delay: 2
+Disallow: /Admin
+Disallow: /js
+Allow: /map
+Host: https://farn-avto.ru
+
+User-agent: Googlebot
+Disallow: /Admin
+Allow: /map
+
+User-agent: * 
+Crawl-delay: 2  
+Disallow: /Admin
+Allow: /map
+
+Sitemap: https://farn-avto.ru/sitemap.xml
